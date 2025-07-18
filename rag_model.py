@@ -45,6 +45,7 @@ result = qa_chain(query)
 print("\n Answer:")
 print(result["result"])
 
+
 print("\n Retrieved Sources:\n")
 for doc in result["source_documents"]:
     print(doc.page_content)
